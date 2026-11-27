@@ -1,0 +1,119 @@
+/* إعدادات الصفحة كاملة */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #1e293b;
+    line-height: 1.8;
+}
+
+/* القائمة في الأعلى */
+header {
+    background-color: #434852;
+    color: white;
+    padding: 15px 6%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.logo {
+    font-size: 26px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    color: #fed7aa;
+}
+
+/* الواجهة الرئيسية */
+.hero {
+    background-color: #eff6ff;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.hero-content {
+    max-width: 750px;
+    margin: auto;
+}
+
+.subtitle {
+    color: #ea580c;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 38px;
+    margin: 15px 0;
+    color: #1d4ed8;
+}
+
+.description {
+    color: #475569;
+    margin-bottom: 25px;
+}
+
+/* الأزرار */
+.btn {
+    display: inline-block;
+    background-color: #f97316;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #c2410c;
+    transform: translateY(-3px);
+}
+
+/* الأقسام */
+section {
+    padding: 60px 6%;
+    scroll-margin-top: 20px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* من أنا */
+.about {
+    text-align: center;
+}
+
+.about p {
+    max-width: 650px;
+    margin: auto;
+    color: #475569;
+}
+
